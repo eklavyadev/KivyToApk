@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = basicapp
+title = tabable
 
 # (str) Package name
-package.name = basicapp
+package.name = tabable
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.basicapp
+package.domain = org.tabable
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv
+#source.include_exts = py,png,jpg,kv,atlas,ttf,wav
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy
+requirements = python3,kivy,typing_extensions,matplotlib,pil,sounddevice,scipy,playsound,pydub,numpy,Levenshtein,soundfile,pyaudio
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
