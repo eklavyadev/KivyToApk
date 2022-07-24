@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,typing_extensions,matplotlib,pillow,sounddevice,scipy,playsound,pydub,numpy,Levenshtein,soundfile,pyaudio
+requirements = python3,kivy,isort==5.10.1,matplotlib==3.5.1,numpy==1.22.2,Pillow==9.2.0,playsound==1.3.0,PyAudio==0.2.11,pydub==0.25.1,python_Levenshtein==0.12.2,recorder==0.0.2,scipy==1.8.0,sounddevice==0.4.4,SoundFile,typing_extensions==4.3.0
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
