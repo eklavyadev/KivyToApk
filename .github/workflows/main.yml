@@ -31,7 +31,8 @@ jobs:
         with:
           path: .buildozer
           key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}-${{ hashFiles('buildozer.spec') }}
-
+      
+      - uses: actions/checkout@v2
       - name: Requirements
         id: required installation
         with:
